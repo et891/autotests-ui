@@ -5,41 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4922eb90-16e3-4a0d-ba9d-8f56fa830e2e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/authentication/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/authentication/login_form_component.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/authentication/registration_form_component.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/base_component.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/charts/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/charts/chart_view_component.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/courses/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/courses/course_view_component.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/courses/course_view_menu_component.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/courses/courses_list_toolbar_view_component.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/courses/create_course_exercise_form_component.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/courses/create_course_exercises_toolbar_view_component.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/courses/create_course_form_component.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/courses/create_course_toolbar_view_component.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/dashboard/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/dashboard/dashboard_toolbar_view_component.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/navigation/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/navigation/navbar_component.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/navigation/sidebar_component.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/navigation/sidebar_list_item_component.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/views/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/views/empty_view_component.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/views/image_upload_widget_component.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdata/files/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_dashboard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elements/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elements/base_element.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elements/button.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elements/file_input.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elements/icon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elements/image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elements/input.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elements/link.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elements/text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elements/textarea.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/browser-state.json" beforeDir="false" afterPath="$PROJECT_DIR$/browser-state.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixtures/pages.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixtures/pages.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/base_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/courses_list_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/courses_list_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/create_course_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/create_course_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/dashboard_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/dashboard_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_courses.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_courses.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/courses/create_course_exercise_form_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/courses/create_course_exercise_form_component.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login_page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,24 +47,8 @@
   }
 }</component>
   <component name="McpProjectServerCommands">
-    <McpServerCommand sourceId="UserConfigurationSource">
-      <option name="allowedToolsNames" />
-      <option name="enabled" value="true" />
-      <option name="name" value="" />
-      <option name="programPath" value="" />
-      <option name="arguments" value="" />
-      <option name="workingDirectory" value="" />
-      <envs />
-    </McpServerCommand>
-    <McpServerCommand sourceId="UserConfigurationSource">
-      <option name="allowedToolsNames" />
-      <option name="enabled" value="true" />
-      <option name="name" value="" />
-      <option name="programPath" value="" />
-      <option name="arguments" value="" />
-      <option name="workingDirectory" value="" />
-      <envs />
-    </McpServerCommand>
+    <commands />
+    <urls />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -99,19 +61,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python tests.Python tests for tests.test_parametrization.TestOperations.executor": "Run",
-    "Python tests.Python tests for tests.test_parametrization.test_open_browser.executor": "Run",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/User/Desktop/projects/autotests-ui/components/charts"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for tests.test_parametrization.TestOperations.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.test_parametrization.test_open_browser.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Desktop/projects/autotests-ui/components/charts&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python tests.Python tests for tests.test_parametrization.TestOperations">
     <configuration name="Python tests for tests.test_parametrization.TestOperations" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="autotests-ui" />
@@ -123,6 +85,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;tests.test_parametrization.TestOperations&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
@@ -138,6 +101,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;tests.test_parametrization.test_open_browser&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
