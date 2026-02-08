@@ -1,11 +1,34 @@
-from playwright.sync_api import Page
+from typing import Pattern
+
+import allure # Импортируем allure
+from playwright.sync_api import Page, expect
+
+from tools.logger import get_logger
+
+logger = get_logger("BASE_PAGE")
+
 
 class BasePage:
     def __init__(self, page: Page):
         self.page = page
 
     def visit(self, url: str):
-        self.page.goto(url, wait_until='domcontentloaded')
+        step = f'Opening the url "{url}"'
 
-    def reload(self):  # Метод для перезагрузки страницы
-        self.page.reload(wait_until='domcontentloaded')
+        with allure.step(step):
+            logger.info(step)
+            self.page.goto(url, wait_until='domcontentloaded')
+
+    def reload(self):
+        step = f'Reloading page with url "{self.page.url}"'
+
+        with allure.step(step):
+            logger.info(step)
+            self.page.reload(wait_until='domcontentloaded')
+
+    def check_current_url(self, expected_url: Pattern[str]):
+        step = f'Checking that current url matches pattern "{expected_url.pattern}"'
+
+        with allure.step(step):
+            logger.info(step)
+            expect(self.page).to_have_url(expected_url)

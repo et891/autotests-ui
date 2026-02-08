@@ -5,19 +5,83 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4922eb90-16e3-4a0d-ba9d-8f56fa830e2e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/elements/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elements/base_element.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elements/button.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elements/file_input.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elements/icon.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elements/image.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elements/input.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elements/link.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elements/text.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elements/textarea.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/environment.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fixtures/allure.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/authentication/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/courses/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/dashboard/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pydantic_product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pydantic_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/authentication/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/courses/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/dashboard/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/pytest/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/allure/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/allure/environment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/allure/epics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/allure/features.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/allure/stories.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/allure/tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/logger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/playwright/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/playwright/mocks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/playwright/pages.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/routes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/browser-state.json" beforeDir="false" afterPath="$PROJECT_DIR$/browser-state.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/authentication/login_form_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/authentication/login_form_component.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/authentication/registration_form_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/authentication/registration_form_component.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/base_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/base_component.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/charts/chart_view_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/charts/chart_view_component.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/courses/course_view_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/courses/course_view_component.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/courses/course_view_menu_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/courses/course_view_menu_component.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/courses/courses_list_toolbar_view_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/courses/courses_list_toolbar_view_component.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/courses/create_course_exercise_form_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/courses/create_course_exercise_form_component.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/courses/create_course_exercises_toolbar_view_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/courses/create_course_exercises_toolbar_view_component.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/courses/create_course_form_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/courses/create_course_form_component.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/courses/create_course_toolbar_view_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/courses/create_course_toolbar_view_component.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/dashboard/dashboard_toolbar_view_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/dashboard/dashboard_toolbar_view_component.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/navigation/navbar_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/navigation/navbar_component.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/navigation/sidebar_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/navigation/sidebar_component.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/navigation/sidebar_list_item_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/navigation/sidebar_list_item_component.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/views/empty_view_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/views/empty_view_component.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/base_element.py" beforeDir="false" afterPath="$PROJECT_DIR$/elements/base_element.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/button.py" beforeDir="false" afterPath="$PROJECT_DIR$/elements/button.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/file_input.py" beforeDir="false" afterPath="$PROJECT_DIR$/elements/file_input.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/icon.py" beforeDir="false" afterPath="$PROJECT_DIR$/elements/icon.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/image.py" beforeDir="false" afterPath="$PROJECT_DIR$/elements/image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/input.py" beforeDir="false" afterPath="$PROJECT_DIR$/elements/input.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/link.py" beforeDir="false" afterPath="$PROJECT_DIR$/elements/link.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/text.py" beforeDir="false" afterPath="$PROJECT_DIR$/elements/text.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/textarea.py" beforeDir="false" afterPath="$PROJECT_DIR$/elements/textarea.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixtures/browsers.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixtures/browsers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixtures/pages.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixtures/pages.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/how b26621af8485b33ff6325e1828d0eeff3edd9611" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/base_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/courses_list_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/courses/courses_list_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/create_course_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/courses/create_course_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/dashboard_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/dashboard/dashboard_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/authentication/login_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/registration_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/authentication/registration_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_authorization.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/authentication/test_authorization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_courses.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/courses/test_courses.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_dashboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/dashboard/test_dashboard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_fixtures.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/pytest/test_fixtures.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_parametrization.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/pytest/test_parametrization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_pytest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/pytest/test_pytest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_pytest_skip.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/pytest/test_pytest_skip.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_pytest_skipif.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/pytest/test_pytest_skipif.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_pytest_xfail.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/pytest/test_pytest_xfail.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/authentication/test_registration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_reruns.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/pytest/test_reruns.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_successful_registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/authentication/test_successful_registration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_usefixtures.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/pytest/test_usefixtures.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,8 +128,10 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for tests.pytest.test_parametrization.test_open_browser.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for tests.test_parametrization.TestOperations.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for tests.test_parametrization.test_open_browser.executor&quot;: &quot;Run&quot;,
+    &quot;Python.config.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
@@ -74,8 +140,17 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Desktop/projects/autotests-ui/components/charts&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python tests.Python tests for tests.test_parametrization.TestOperations">
-    <configuration name="Python tests for tests.test_parametrization.TestOperations" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kazak\Desktop\projects\autotests-ui\tests\pytest" />
+      <recent name="C:\Users\kazak\Desktop\projects\autotests-ui\tests\authentication" />
+      <recent name="C:\Users\kazak\Desktop\projects\autotests-ui\tests\courses" />
+      <recent name="C:\Users\kazak\Desktop\projects\autotests-ui\tests\dashboard" />
+      <recent name="C:\Users\kazak\Desktop\projects\autotests-ui\pages\authentication" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests for tests.pytest.test_parametrization.test_open_browser">
+    <configuration name="Python tests for tests.pytest.test_parametrization.TestOperations" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="autotests-ui" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -87,11 +162,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="RUN_TOOL" value="" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.test_parametrization.TestOperations&quot;" />
+      <option name="_new_target" value="&quot;tests.pytest.test_parametrization.TestOperations&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for tests.test_parametrization.test_open_browser" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for tests.pytest.test_parametrization.test_open_browser" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="autotests-ui" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -103,14 +178,14 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="RUN_TOOL" value="" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.test_parametrization.test_open_browser&quot;" />
+      <option name="_new_target" value="&quot;tests.pytest.test_parametrization.test_open_browser&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for tests.test_parametrization.TestOperations" />
-        <item itemvalue="Python tests.Python tests for tests.test_parametrization.test_open_browser" />
+        <item itemvalue="Python tests.Python tests for tests.pytest.test_parametrization.test_open_browser" />
+        <item itemvalue="Python tests.Python tests for tests.pytest.test_parametrization.TestOperations" />
       </list>
     </recent_temporary>
   </component>
